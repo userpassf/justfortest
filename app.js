@@ -13,7 +13,7 @@ ctx.reply('hello i am working');
 // Serve static files
 
 app.get('/',function(req,res){
-  res.send('web page is running');
+  res.send('new web page is running');
 })
 // Start the server
 app.listen(PORT, () => {
